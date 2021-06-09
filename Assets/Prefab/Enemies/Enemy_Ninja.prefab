@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 252511097}
   - component: {fileID: 2033208818}
   - component: {fileID: 5355556323560079067}
+  - component: {fileID: 1876226517941801004}
   m_Layer: 2
   m_Name: Enemy_Ninja
   m_TagString: Enemy
@@ -220,3 +221,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1876226517941801004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4072355137133630573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53051a2c44cd9449afeaaa841ea23a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Count: 50
+  DropPref: {fileID: 6688510034287475734, guid: 99b85cfbf816b7f48b13b1b175cc2077,
+    type: 3}

@@ -20,6 +20,8 @@ public class Bullet : MonoBehaviour
         }
         else if (other.CompareTag("Enemy"))
         {
+            EnemyDrops enemy = other.GetComponent<EnemyDrops>();
+            enemy.Drop();
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
